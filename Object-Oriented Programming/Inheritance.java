@@ -15,7 +15,7 @@
   public void printMe() {
 	  System.out.println("I am a Method");
   }
-  }
+}
  class Derived extends Base{
 	 int y;
 	 
@@ -39,10 +39,6 @@ public class Inheritance {
 		Derived d = new Derived();
 		d.setx(43);
 		System.out.println(d.getx());
-		
-		 
-		
-
 	}
 
 }
